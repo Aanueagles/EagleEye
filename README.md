@@ -24,6 +24,13 @@ pip install -r requirements.txt
 
 ```bash
 python eagleeye.py -f path/to/file.pcap -c "Capture 1"
+```
+📊 Example Output
+| Capture Number | Malicious Behavior      | Start Packet | End Packet | Attacker IP    | Destination IP | Remarks        |
+| -------------- | ----------------------- | ------------ | ---------- | -------------- | -------------- | -------------- |
+| Capture 3      | Reverse Shell (C2)      | 63925        | 64095      | 192.168.56.1   | 192.168.56.102 | Port 4444      |
+| Capture 3      | Large Data Exfiltration | 17604        | 22191      | 192.168.56.102 | 192.168.56.1   | TCP len > 1000 |
+
 
 
 
