@@ -19,5 +19,5 @@
 
 ```bash
 git clone https://github.com/aanueagles/eagleeyes.git
-cd network-threat-hunter
+cd eagleyes
 pip install -r requirements.txt
