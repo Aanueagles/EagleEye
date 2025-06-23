@@ -18,3 +18,12 @@ EagleEye is a Python-based CLI tool for detecting malicious behavior in network 
 git clone https://github.com/yourusername/EagleEye.git
 cd EagleEye
 pip install -r requirements.txt
+```
+
+## ⚡ Usage
+
+```bash
+python eagleeye.py -f path/to/file.pcap -c "Capture 1"
+
+
+
